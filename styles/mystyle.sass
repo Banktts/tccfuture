@@ -1,0 +1,21 @@
+@charset "utf-8"
+$navbar-height: 5rem
+
+.navbar
+    .navbar-menu
+        &.is-active
+            .navbar-item
+                &.is-active,
+                &:hover
+                    background-color: hsl(0, 0%, 21%)
+                    color: white
+.hero
+    .hero-head
+        .navbar
+            .navbar-menu
+                &.is-active
+                .navbar-item
+                    &.is-active,
+                    &:hover
+                        color: white
+@import '../node_modules/bulma/bulma.sass'
